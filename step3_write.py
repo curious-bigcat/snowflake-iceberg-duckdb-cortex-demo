@@ -9,7 +9,7 @@ import duckdb
 import os
 
 # -- Configuration --
-ACCOUNT = "SFSEAPAC-BSURESH"
+ACCOUNT = "<ORG>-<ACCOUNT>"
 CATALOG_URI = f"https://{ACCOUNT}.snowflakecomputing.com/polaris/api/catalog"
 DATABASE = "ICEBERG_DUCKDB_DEMO"
 ROLE = "ACCOUNTADMIN"

@@ -10,7 +10,7 @@ import os
 import sys
 
 # -- Configuration --
-ACCOUNT = "SFSEAPAC-BSURESH"
+ACCOUNT = "<ORG>-<ACCOUNT>"
 MCP_URL = f"https://{ACCOUNT}.snowflakecomputing.com/api/v2/databases/ICEBERG_DUCKDB_DEMO/schemas/PUBLIC/mcp-servers/ECOMMERCE_MCP_SERVER"
 PAT = os.environ["HORIZON_PAT"]
 

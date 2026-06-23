@@ -99,7 +99,7 @@ and get answers via Cortex Analyst + SQL execution.
 #### Step 8: Test via curl
 
 ```bash
-export MCP_URL="https://SFSEAPAC-BSURESH.snowflakecomputing.com/api/v2/databases/ICEBERG_DUCKDB_DEMO/schemas/PUBLIC/mcp-servers/ECOMMERCE_MCP_SERVER"
+export MCP_URL="https://<ORG>-<ACCOUNT>.snowflakecomputing.com/api/v2/databases/ICEBERG_DUCKDB_DEMO/schemas/PUBLIC/mcp-servers/ECOMMERCE_MCP_SERVER"
 export PAT="<YOUR_PAT>"
 
 # Discover tools
@@ -130,7 +130,7 @@ curl -s -X POST "$MCP_URL" \
 #### Step 9: Connect Claude.ai (optional)
 
 1. Settings > Connectors > Add custom connector
-2. URL: `https://SFSEAPAC-BSURESH.snowflakecomputing.com/api/v2/databases/ICEBERG_DUCKDB_DEMO/schemas/PUBLIC/mcp-servers/ECOMMERCE_MCP_SERVER`
+2. URL: `https://<ORG>-<ACCOUNT>.snowflakecomputing.com/api/v2/databases/ICEBERG_DUCKDB_DEMO/schemas/PUBLIC/mcp-servers/ECOMMERCE_MCP_SERVER`
 3. Authentication: Bearer token using your PAT
 
 ## Key Notes
