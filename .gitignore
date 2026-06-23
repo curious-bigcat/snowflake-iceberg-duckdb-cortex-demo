@@ -1,0 +1,4 @@
+.venv/
+.snowflake/
+__pycache__/
+*.pyc
